@@ -7,6 +7,7 @@ public class MovePlayer : MonoBehaviour
     public Rigidbody2D rdb;
     public float velocidade = 10;
     public SpriteRenderer fogo1;
+    public SpriteRenderer fogo2;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,10 +43,12 @@ public class MovePlayer : MonoBehaviour
         {
             rdb.AddRelativeForce(Vector2.up * velocidade);
             fogo1.enabled = true;
+            fogo2.enabled = true;
         }
         else
         {
             fogo1.enabled = false;
+            fogo2.enabled = false;
         }
 
     }
