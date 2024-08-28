@@ -14,14 +14,21 @@ public class FireParticle : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
+        
             Fire();
-        }
+        
     }
     void Fire()
     {
-        particleSystem.Emit(1);
+        if (Input.GetKey(KeyCode.Space))
+        {
+
+            particleSystem.Play();
+        }
+        else
+        {
+            particleSystem.Stop();
+        }
     }
 }
 
