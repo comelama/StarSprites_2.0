@@ -145,6 +145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: parede (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1191718167446717150, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalScale.x
       value: 67.065796
@@ -155,7 +159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.97
+      value: -11.7
       objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalPosition.z
@@ -262,6 +266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fogoverde (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8647707450900060039, guid: 75e91e36a3e729445b79d08f9a0fc770, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -354,20 +362,12 @@ PrefabInstance:
       value: parede (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 45.893837
-      objectReference: {fileID: 0}
-    - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -41.168163
+      value: -30.91
       objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.9983582
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalPosition.z
@@ -561,6 +561,14 @@ PrefabInstance:
     - target: {fileID: 3697157232440706727, guid: 29e4bc5a994192c4ab771e14d8a1e144, type: 3}
       propertyPath: m_Name
       value: nave
+      objectReference: {fileID: 0}
+    - target: {fileID: 3697157232440706727, guid: 29e4bc5a994192c4ab771e14d8a1e144, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394813298265972485, guid: 29e4bc5a994192c4ab771e14d8a1e144, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7432338904215795020, guid: 29e4bc5a994192c4ab771e14d8a1e144, type: 3}
       propertyPath: prewarm
@@ -770,17 +778,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: parede (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1191718167446717150, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalScale.x
       value: 45.870438
       objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.831837
+      value: 14.42
       objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.8494582
+      value: 1.85
       objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalPosition.z
@@ -828,7 +840,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1350333200}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: barreira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -852,6 +864,134 @@ Transform:
   - {fileID: 1863417790}
   - {fileID: 1895055543}
   - {fileID: 487293546}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1471416792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1471416794}
+  - component: {fileID: 1471416793}
+  m_Layer: 0
+  m_Name: BackgroundMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1471416793
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471416792}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9a9c1fe192e9e414ebb957b200948a92, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1471416794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471416792}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.41, y: 14.06, z: -1.8813572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1617749699
@@ -1178,6 +1318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fogoverde
       objectReference: {fileID: 0}
+    - target: {fileID: 8647707450900060039, guid: 75e91e36a3e729445b79d08f9a0fc770, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1195,13 +1339,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: parede
       objectReference: {fileID: 0}
+    - target: {fileID: 1191718167446717150, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.9839644
       objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 24.377857
+      value: 14.56
       objectReference: {fileID: 0}
     - target: {fileID: 7144565044753505795, guid: df18d47bec9220644b13fa3c30a66d51, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1253,3 +1401,4 @@ SceneRoots:
   - {fileID: 1617749699}
   - {fileID: 2092762843}
   - {fileID: 1350333200}
+  - {fileID: 1471416794}
